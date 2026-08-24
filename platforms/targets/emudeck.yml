@@ -1,6 +1,6 @@
 platform: emudeck
 source: https://github.com/dragoonDorise/EmuDeck
-scraped_at: '2026-08-06T11:31:07Z'
+scraped_at: '2026-08-24T06:45:04Z'
 targets:
   steamos:
     architecture: x86_64
@@ -50,6 +50,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -142,6 +143,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - nuance
@@ -192,6 +194,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -288,6 +291,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -380,6 +384,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - nuance
@@ -430,6 +435,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014

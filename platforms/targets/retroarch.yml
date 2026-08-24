@@ -1,6 +1,6 @@
 platform: retroarch
 source: https://buildbot.libretro.com/nightly/
-scraped_at: '2026-08-06T11:31:07Z'
+scraped_at: '2026-08-24T06:45:03Z'
 targets:
   linux-x86_64:
     architecture: x86_64
@@ -37,6 +37,7 @@ targets:
     - cannonball
     - cap32
     - cdi2015
+    - cemu
     - chailove
     - citra
     - citra2018
@@ -46,6 +47,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -135,6 +137,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - nuance
@@ -181,11 +184,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - tgbdual
@@ -462,6 +467,7 @@ targets:
     - cannonball
     - cap32
     - cdi2015
+    - cemu
     - chailove
     - citra
     - citra2018
@@ -471,6 +477,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -560,6 +567,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - nuance
@@ -606,11 +614,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - tgbdual
@@ -875,6 +885,7 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
     - citra
     - clownmdemu
@@ -884,6 +895,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -973,6 +985,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -983,6 +996,7 @@ targets:
     - opera
     - panda3ds
     - parallel_n64
+    - pcee2
     - pcsx_rearmed
     - pd777
     - picodrive
@@ -1016,11 +1030,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1072,6 +1088,7 @@ targets:
     - ardens
     - arduous
     - atari800
+    - b2
     - bbkemu
     - bk
     - bluemsx
@@ -1096,6 +1113,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -1178,10 +1196,12 @@ targets:
     - mu
     - mupen64plus_next_gles2
     - mupen64plus_next_gles3
+    - na
     - native32emu
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -1224,11 +1244,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1279,6 +1301,7 @@ targets:
     - ardens
     - arduous
     - atari800
+    - b2
     - bbkemu
     - bk
     - bluemsx
@@ -1295,6 +1318,7 @@ targets:
     - bsnes_mercury_performance
     - cannonball
     - cap32
+    - cemu
     - chailove
     - clownmdemu
     - craft
@@ -1303,6 +1327,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -1386,10 +1411,12 @@ targets:
     - mu
     - mupen64plus_next_gles2
     - mupen64plus_next_gles3
+    - na
     - native32emu
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -1398,6 +1425,7 @@ targets:
     - oberon
     - openlara
     - opera
+    - pcee2
     - pcsx_rearmed
     - pd777
     - picodrive
@@ -1431,11 +1459,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1510,6 +1540,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -1596,6 +1627,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -1636,6 +1668,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -1719,6 +1752,7 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -1804,6 +1838,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -1849,11 +1884,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - test
@@ -1931,6 +1968,7 @@ targets:
     - crocods
     - desmume
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -2012,6 +2050,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -2021,6 +2060,8 @@ targets:
     - opera
     - panda3ds
     - parallel_n64
+    - pcee2
+    - pcsx2
     - pcsx_rearmed
     - pd777
     - picodrive
@@ -2054,11 +2095,13 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
     - stella2023
     - superbroswar
+    - supermodel
     - swanstation
     - tamalibretro
     - tgbdual
@@ -2135,6 +2178,7 @@ targets:
     - crocods
     - desmume
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -2216,6 +2260,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -2256,6 +2301,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -2334,6 +2380,7 @@ targets:
     - crocods
     - desmume
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
@@ -2415,6 +2462,7 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
     - numero
@@ -2453,6 +2501,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -2563,6 +2612,7 @@ targets:
     - mednafen_pce
     - mednafen_pce_fast
     - mednafen_pcfx
+    - mednafen_supafaust
     - mednafen_supergrafx
     - mednafen_vb
     - mednafen_wswan
