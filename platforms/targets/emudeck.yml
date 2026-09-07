@@ -1,6 +1,6 @@
 platform: emudeck
 source: https://github.com/dragoonDorise/EmuDeck
-scraped_at: '2026-08-06T11:31:07Z'
+scraped_at: '2026-09-07T11:21:33Z'
 targets:
   steamos:
     architecture: x86_64
@@ -11,6 +11,7 @@ targets:
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
     - applewin
     - ardens
@@ -50,9 +51,11 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
@@ -77,6 +80,7 @@ targets:
     - freechaf
     - freeintv
     - frodo
+    - fsuae
     - fuse
     - galaksija
     - gam4980
@@ -95,6 +99,7 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
     - hbmame
     - holani
     - irogb
@@ -111,6 +116,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -130,6 +137,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - meteor
     - mgba
     - minivmac
@@ -142,18 +150,22 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nside_sfc_balanced
     - nuance
     - numero
     - nxengine
     - o2em
     - oberon
+    - omicron
     - openlara
     - opera
     - panda3ds
     - parallel_n64
     - pcee2
+    - pcem
     - pcsx2
     - pcsx_rearmed
     - pd777
@@ -175,6 +187,7 @@ targets:
     - quicknes
     - race
     - reminiscence
+    - remotejoy
     - retro8
     - romcleaner
     - rpcs3
@@ -192,6 +205,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -223,6 +237,7 @@ targets:
     - vice_xplus4
     - vice_xscpu64
     - vice_xvic
+    - video_processor
     - vircon32
     - virtualjaguar
     - virtualxt
@@ -250,6 +265,7 @@ targets:
     - DoubleCherryGB
     - a5200
     - amiarcadia
+    - amiberry
     - anarch
     - applewin
     - ardens
@@ -288,9 +304,11 @@ targets:
     - desmume
     - desmume2015
     - dice
+    - dingooemu
     - dinothawr
     - dirksimple
     - dolphin
+    - dosbox
     - dosbox_core
     - dosbox_pure
     - dosbox_svn
@@ -315,6 +333,7 @@ targets:
     - freechaf
     - freeintv
     - frodo
+    - fsuae
     - fuse
     - galaksija
     - gam4980
@@ -333,6 +352,7 @@ targets:
     - gw
     - handy
     - hatari
+    - hatari2014
     - hbmame
     - holani
     - irogb
@@ -349,6 +369,8 @@ targets:
     - mame2003_midway
     - mame2003_plus
     - mame2010
+    - mame2015
+    - mame2016
     - mcsoftserve
     - mednafen_gba
     - mednafen_lynx
@@ -368,6 +390,7 @@ targets:
     - melondsds
     - mesen
     - mesen-s
+    - mesen2
     - meteor
     - mgba
     - minivmac
@@ -380,18 +403,22 @@ targets:
     - nekop2
     - neocd
     - nestopia
+    - nicaiemu
     - noods
     - np2kai
+    - nside_sfc_balanced
     - nuance
     - numero
     - nxengine
     - o2em
     - oberon
+    - omicron
     - openlara
     - opera
     - panda3ds
     - parallel_n64
     - pcee2
+    - pcem
     - pcsx2
     - pcsx_rearmed
     - pd777
@@ -413,6 +440,7 @@ targets:
     - quicknes
     - race
     - reminiscence
+    - remotejoy
     - retro8
     - romcleaner
     - rpcs3
@@ -430,6 +458,7 @@ targets:
     - snes9x2005
     - snes9x2005_plus
     - snes9x2010
+    - spmp8000emu
     - squirreljme
     - stella
     - stella2014
@@ -461,6 +490,7 @@ targets:
     - vice_xplus4
     - vice_xscpu64
     - vice_xvic
+    - video_processor
     - vircon32
     - virtualjaguar
     - virtualxt
