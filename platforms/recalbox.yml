@@ -1,7 +1,7 @@
 platform: Recalbox
-version: 10.0.8
+version: '10.1'
 homepage: "https://www.recalbox.com"
-source: "https://gitlab.com/recalbox/recalbox/-/raw/10.0.8/board/recalbox/fsoverlay/recalbox/share_init/system/.emulationstation/es_bios.xml"
+source: "https://gitlab.com/recalbox/recalbox/-/raw/10.1/board/recalbox/fsoverlay/recalbox/share_init/system/.emulationstation/es_bios.xml"
 base_destination: bios
 hash_type: md5
 verification_mode: md5
@@ -52,6 +52,7 @@ cores:
 - libretro/mednafen_psx
 - libretro/mednafen_psx_hw
 - libretro/mednafen_saturn
+- libretro/mednafen_stv
 - libretro/mednafen_supergrafx
 - libretro/melonds
 - libretro/mesen
@@ -1368,10 +1369,6 @@ systems:
       destination: saturn/saturn_bios.bin
       required: true
       md5: af5828fdff51384f99b3c4926be27762
-    - name: stvbios.zip
-      destination: saturn/stvbios.zip
-      required: true
-      md5: 2b99d9dcecde22db4371580b6bb33f32,53a094ad3a188f86de4e64624fe9b3ca,17116d2aea72454096b3f80ab714bfba,2b99d9dcecde22db4371580b6bb33f32,4cb34733b741ada074f11e3abcdc56d8,6b6d422a6c392eaec178b64b92987e99,88b9da6cda268ba1d9e37dd82d038801,8c34608cc140e1bfbf9c945a12fed0e8,b876d86e244d00b336980b4e26e94132
     - name: sega_101.bin
       destination: saturn/sega_101.bin
       required: true
@@ -1458,6 +1455,14 @@ systems:
       destination: neocd/ng-lo.rom
       required: false
       md5: e255264d85d5765013b1b2fa8109dd53
+    - name: neocd.zip
+      destination: geolith/neocd.zip
+      required: true
+      md5: 3711783a59ef875c31076512e3f9f0e5
+    - name: neocdz.zip
+      destination: geolith/neocdz.zip
+      required: true
+      md5: 724bc64e63d073cf81f986adfb1f1b78
     native_id: neogeocd
   ti994a:
     files:
@@ -1656,3 +1661,22 @@ systems:
       required: false
       md5: 89e42e386e82e0cacb4a2704a03706ca
     native_id: scummvm
+  stv:
+    files:
+    - name: epr-20091.ic8
+      destination: stv/epr-20091.ic8
+      required: true
+      md5: 34175c7ad31acbe44f2baccc7ea065c7
+    - name: epr-17952a.ic8
+      destination: stv/epr-17952a.ic8
+      required: true
+      md5: 249b67334cfae53810c1d1e3b93957a3
+    - name: epr-17954a.ic8
+      destination: stv/epr-17954a.ic8
+      required: true
+      md5: ba2cb634c15e59d7ea5552729306f2ef
+    - name: stvbios.zip
+      destination: stv/stvbios.zip
+      required: true
+      md5: 2b99d9dcecde22db4371580b6bb33f32,53a094ad3a188f86de4e64624fe9b3ca,17116d2aea72454096b3f80ab714bfba,2b99d9dcecde22db4371580b6bb33f32,4cb34733b741ada074f11e3abcdc56d8,6b6d422a6c392eaec178b64b92987e99,88b9da6cda268ba1d9e37dd82d038801,8c34608cc140e1bfbf9c945a12fed0e8,b876d86e244d00b336980b4e26e94132
+    native_id: stv
