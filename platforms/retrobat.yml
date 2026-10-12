@@ -1,5 +1,5 @@
 platform: RetroBat
-version: 8.1.2
+version: 8.3.0
 homepage: "https://www.retrobat.org"
 source: "https://raw.githubusercontent.com/RetroBat-Official/emulatorlauncher/master/batocera-systems/Resources/batocera-systems.json"
 base_destination: bios
@@ -494,6 +494,24 @@ systems:
       required: true
       md5: 95d339631d867c8f1d15a5f2ec26069d
     name: Fairchild ChannelF
+  chihiro:
+    files:
+    - name: chihiro_xbox_bios.bin
+      destination: chihiro/chihiro_xbox_bios.bin
+      required: true
+    - name: fpr21042_m29w160et.bin
+      destination: chihiro/fpr21042_m29w160et.bin
+      required: true
+    - name: ic10_g24lc64
+      destination: chihiro/ic10_g24lc64
+      required: true
+    - name: ic11_24lc024.bin
+      destination: chihiro/ic11_24lc024.bin
+      required: true
+    - name: pc20_g24lc64.bin
+      destination: chihiro/pc20_g24lc64.bin
+      required: true
+    name: Sega Chihiro
   coco:
     files:
     - name: coco.zip
@@ -1047,6 +1065,15 @@ systems:
       required: true
       md5: aad37b1492886b892f1821f37fd3ae34
     name: Nintendo 64 DD
+  namco2x6:
+    files:
+    - name: r27v1602f.7d
+      destination: pcsx2/bios/r27v1602f.7d
+      required: true
+    - name: r27v1602f.8g
+      destination: pcsx2/bios/r27v1602f.8g
+      required: true
+    name: Namco2x6
   naomi:
     files:
     - name: naomi.zip
@@ -1443,7 +1470,7 @@ systems:
   triforce:
     files:
     - name: segaboot.gcm
-      destination: emulators/dolphin-emu/User/Triforce/segaboot.gcm
+      destination: triforce/segaboot.gcm
       required: true
     name: Triforce
   tutor:
