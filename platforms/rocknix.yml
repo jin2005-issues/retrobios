@@ -1,5 +1,5 @@
 platform: ROCKNIX
-version: '20260801'
+version: '20261001'
 homepage: "https://rocknix.org"
 source: "https://raw.githubusercontent.com/ROCKNIX/distribution/next/projects/ROCKNIX/packages/rocknix/sources/scripts/rocknix-systems"
 base_destination: bios
@@ -202,7 +202,7 @@ systems:
       required: true
       md5: 21038400dc633070a78ad53090c53017
     - name: ps2-0230a-20080220.bin
-      destination: aethersx2/bios/ps2-0230a-20080220.bin
+      destination: armsx2/ps2-0230a-20080220.bin
       required: true
       md5: 21038400dc633070a78ad53090c53017
     native_id: ps2
