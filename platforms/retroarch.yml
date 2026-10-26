@@ -2027,6 +2027,27 @@ systems:
     native_id: Phillips - Videopac+
   philips---cd-i:
     files:
+    - name: cdi200.rom
+      destination: cdi200.rom
+      required: true
+      sha1: d961de803c89b3d1902d656ceb9ce7c02dccb40a
+      md5: 2969341396aa61e0143dc2351aaa6ef6
+      crc32: 40c4e6b9
+      size: 524288
+    - name: cdi220b.rom
+      destination: cdi220b.rom
+      required: true
+      sha1: 53360a1f21ddac952e95306ced64186a3fc0b93e
+      md5: ac0d468be366779c9df633be98da250a
+      crc32: 279683ca
+      size: 524288
+    - name: vmpega.rom
+      destination: vmpega.rom
+      required: true
+      sha1: be407fbc102f1731a0862554855e963e5a47c17b
+      md5: 53ba3bf7443187a657baa272d01d3771
+      crc32: db264e8b
+      size: 262144
     - name: cdimono1.zip
       destination: cdimono1.zip
       required: true

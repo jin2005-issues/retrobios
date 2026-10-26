@@ -1,5 +1,5 @@
 platform: RetroDECK
-version: 0.10.9b
+version: 0.10.10b
 homepage: "https://retrodeck.net"
 source: "https://github.com/RetroDECK/components"
 base_destination: ''
