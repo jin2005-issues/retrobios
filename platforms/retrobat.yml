@@ -1,5 +1,5 @@
 platform: RetroBat
-version: 8.1.2
+version: 8.3.1
 homepage: "https://www.retrobat.org"
 source: "https://raw.githubusercontent.com/RetroBat-Official/emulatorlauncher/master/batocera-systems/Resources/batocera-systems.json"
 base_destination: bios
@@ -53,7 +53,6 @@ systems:
     - name: advision.zip
       destination: advision.zip
       required: true
-      md5: 1c08606408029751fd30ac91d2bf30d5
     - name: advision.xml
       destination: mame/hash/advision.xml
       required: true
@@ -114,7 +113,6 @@ systems:
     - name: apfm1000.zip
       destination: apfm1000.zip
       required: true
-      md5: b197db12f7a13827717bbeb7cfd9542a
     - name: apfm1000.xml
       destination: mame/hash/apfm1000.xml
       required: true
@@ -227,7 +225,6 @@ systems:
     - name: ar_bios.zip
       destination: ar_bios.zip
       required: true
-      md5: 37e9746f4491aa2df9a83729d1a93620
     - name: arcadia.xml
       destination: mame/hash/arcadia.xml
       required: true
@@ -249,7 +246,6 @@ systems:
     - name: astrocde.zip
       destination: astrocde.zip
       required: true
-      md5: f58a3823ab308ef0a02b498d126e5d96
     - name: astrocde.xml
       destination: mame/hash/astrocde.xml
       required: true
@@ -354,7 +350,6 @@ systems:
     - name: awbios.zip
       destination: dc/awbios.zip
       required: true
-      md5: 0ec5ae5b5a5c4959fa8b43fcf8687f7c
     name: Atomiswave
   bbcmicro:
     files:
@@ -450,7 +445,6 @@ systems:
     - name: casloopy.zip
       destination: casloopy.zip
       required: true
-      md5: 0e1d8dc0110ecf8201c0cef11ef4a858
     - name: casloopy.xml
       destination: mame/hash/casloopy.xml
       required: true
@@ -494,6 +488,24 @@ systems:
       required: true
       md5: 95d339631d867c8f1d15a5f2ec26069d
     name: Fairchild ChannelF
+  chihiro:
+    files:
+    - name: chihiro_xbox_bios.bin
+      destination: chihiro/chihiro_xbox_bios.bin
+      required: true
+    - name: fpr21042_m29w160et.bin
+      destination: chihiro/fpr21042_m29w160et.bin
+      required: true
+    - name: ic10_g24lc64.bin
+      destination: chihiro/ic10_g24lc64.bin
+      required: true
+    - name: ic11_24lc024.bin
+      destination: chihiro/ic11_24lc024.bin
+      required: true
+    - name: pc20_g24lc64.bin
+      destination: chihiro/pc20_g24lc64.bin
+      required: true
+    name: Sega Chihiro
   coco:
     files:
     - name: coco.zip
@@ -633,51 +645,28 @@ systems:
     name: FM-7
   fmtowns:
     files:
-    - name: fmtowns.zip
-      destination: fmtowns.zip
-      required: true
-    - name: fmtownsux.zip
-      destination: fmtownsux.zip
-      required: true
     - name: FMT_DIC.ROM
       destination: fmtowns/FMT_DIC.ROM
       required: true
-      md5: 8fa4e553f28cfc0c30a0a1e589799942
+      md5: 34847786d7de94b5d1133c956ab1d75d
     - name: FMT_DOS.ROM
       destination: fmtowns/FMT_DOS.ROM
       required: true
       md5: 0585b19930d4a7f4c71bcc8a33746588
-    - name: FMT_F20.ROM
-      destination: fmtowns/FMT_F20.ROM
-      required: true
-      md5: ac0c7021e9bf48ca84b51ab651169a88
     - name: FMT_FNT.ROM
       destination: fmtowns/FMT_FNT.ROM
       required: true
-      md5: b91300e55b70227ce98b59c5f02fa8dd
+      md5: eb44f2093f51eb7159f03e170b13af76
     - name: FMT_SYS.ROM
       destination: fmtowns/FMT_SYS.ROM
       required: true
-      md5: 86fb6f7280689259f0ca839dd3dd6cde
-    - name: fmtowns_cd.xml
-      destination: mame/hash/fmtowns_cd.xml
-      required: true
-    - name: fmtowns_flop_cracked.xml
-      destination: mame/hash/fmtowns_flop_cracked.xml
-      required: true
-    - name: fmtowns_flop_misc.xml
-      destination: mame/hash/fmtowns_flop_misc.xml
-      required: true
-    - name: fmtowns_flop_orig.xml
-      destination: mame/hash/fmtowns_flop_orig.xml
-      required: true
+      md5: feaf8c5675151e00cfe3ad27673bff29
     name: FMTowns
   gamate:
     files:
     - name: gamate.zip
       destination: gamate.zip
       required: true
-      md5: 320bf3d4142fa1043255db7ff87d17c7
     - name: gamate.xml
       destination: mame/hash/gamate.xml
       required: true
@@ -687,7 +676,6 @@ systems:
     - name: gamecom.zip
       destination: gamecom.zip
       required: true
-      md5: f2087ed09f7fa8d8856cfafb20dd00dc
     - name: gamecom.xml
       destination: mame/hash/gamecom.xml
       required: true
@@ -697,7 +685,6 @@ systems:
     - name: gamepock.zip
       destination: gamepock.zip
       required: true
-      md5: 887479fe3c69a0b935c57a7a738e26c4
     - name: gamepock.xml
       destination: mame/hash/gamepock.xml
       required: true
@@ -728,7 +715,6 @@ systems:
     - name: gmaster.zip
       destination: gmaster.zip
       required: true
-      md5: 4239d6f44a0d78d27c69f9b95885f48e
     - name: gmaster.xml
       destination: mame/hash/gmaster.xml
       required: true
@@ -738,7 +724,6 @@ systems:
     - name: gp32.zip
       destination: gp32.zip
       required: true
-      md5: 8c392f475834218d88533150d36cc84c
     - name: gp32.xml
       destination: mame/hash/gp32.xml
       required: true
@@ -748,11 +733,9 @@ systems:
     - name: hikaru.zip
       destination: hikaru.zip
       required: true
-      md5: aac601811a25d7b31a3d5f3f1f82f338
     - name: mie.zip
       destination: mie.zip
       required: true
-      md5: e95415b161121bef35ade12367138c63
     name: Hikaru
   intellivision:
     files:
@@ -1047,12 +1030,20 @@ systems:
       required: true
       md5: aad37b1492886b892f1821f37fd3ae34
     name: Nintendo 64 DD
+  namco2x6:
+    files:
+    - name: r27v1602f.7d
+      destination: pcsx2/bios/r27v1602f.7d
+      required: true
+    - name: r27v1602f.8g
+      destination: pcsx2/bios/r27v1602f.8g
+      required: true
+    name: Namco2x6
   naomi:
     files:
     - name: naomi.zip
       destination: dc/naomi.zip
       required: true
-      md5: eb4099aeb42ef089cfe94f8fe95e51f6
     name: Naomi
   naomi2:
     files:
@@ -1088,25 +1079,21 @@ systems:
     - name: neogeo.zip
       destination: neogeo.zip
       required: true
-      md5: dffb72f116d36d025068b23970a4f6df
     name: NeoGeo
   neogeo64:
     files:
     - name: neogeo.zip
       destination: neogeo.zip
       required: true
-      md5: dffb72f116d36d025068b23970a4f6df
     name: Hyper NeoGeo 64
   neogeocd:
     files:
     - name: neogeo.zip
       destination: neogeo.zip
       required: true
-      md5: dffb72f116d36d025068b23970a4f6df
     - name: neocdz.zip
       destination: neocdz.zip
       required: true
-      md5: c733b4b7bd30fa849874d96c591c8639
     - name: neocd_f.rom
       destination: neocd/neocd_f.rom
       required: true
@@ -1259,7 +1246,6 @@ systems:
     - name: pegasus.zip
       destination: pegasus.zip
       required: true
-      md5: fee37d8140e4fab48aac4fdab2847f7d
     - name: pegasus_cart.xml
       destination: mame/hash/pegasus_cart.xml
       required: true
@@ -1341,7 +1327,6 @@ systems:
     - name: scv.zip
       destination: scv.zip
       required: true
-      md5: 33df021613fb12abe2ad14b9eb17c7fe
     - name: upd7801g.s01
       destination: upd7801g.s01
       required: true
@@ -1443,7 +1428,7 @@ systems:
   triforce:
     files:
     - name: segaboot.gcm
-      destination: emulators/dolphin-emu/User/Triforce/segaboot.gcm
+      destination: triforce/segaboot.gcm
       required: true
     name: Triforce
   tutor:
@@ -1454,7 +1439,7 @@ systems:
     - name: tutor.xml
       destination: mame/hash/tutor.xml
       required: true
-    name: APF M-1000
+    name: Tomy Tutor
   vc4000:
     files:
     - name: vc4000.xml
